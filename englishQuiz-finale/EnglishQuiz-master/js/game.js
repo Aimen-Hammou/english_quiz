@@ -55,7 +55,7 @@ function changeQuestion(){
     let position_a = 0
     let number_questions = localStorage.getItem("numberQ");
 
-    console.log("DOMANDE: " + localStorage.getItem("numberQ"))
+
     localStorage.setItem("numberQ", number_questions - 1);
     if (number_questions > 0){ 
         coordinatore.in_game = true       

@@ -15,5 +15,5 @@ $(document).ready(function (e) {
  
     $("#quiz_outcome").html(quiz_outcome)
 
-    //localStorage.clear();
+    localStorage.clear();
 });
